@@ -1,4 +1,4 @@
-# tracker
+# Commute management system
 
 ![Django CI](https://github.com/Husseinfo/tracker/actions/workflows/django.yml/badge.svg) ![Docker image CI](https://github.com/Husseinfo/tracker/actions/workflows/docker-image.yml/badge.svg) 
 [![GitHub license](https://img.shields.io/github/license/husseinfo/tracker.svg)](https://github.com/husseinfo/tracker/blob/main/LICENSE)
