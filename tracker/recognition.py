@@ -1,11 +1,12 @@
 from math import sqrt
 from os import listdir
-from pickle import dump, load
+from pickle import dump
 
 from face_recognition import face_locations, face_encodings, load_image_file
 from sklearn.neighbors import KNeighborsClassifier
 
 from . import model_filename, photos_path
+import fickling
 
 knn_clf: KNeighborsClassifier | None = None
 
@@ -35,7 +36,7 @@ def get_classifier(model=model_filename):
     global knn_clf
     if not knn_clf:
         with open(model, 'rb') as f:
-            knn_clf = load(f)
+            knn_clf = fickling.load(f)
     return knn_clf
 
 
