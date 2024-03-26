@@ -3,3 +3,6 @@ djangorestframework==3.14.0
 face_recognition==1.3.0
 scikit-learn==1.1.3
 mkdocs-material==8.5.9
+fickling~=0.1.0 \
+    --hash=sha256:a5bb5982e2c0e86d41fceaf9576929f0e7bfeef53998248f69c885224cf45739
+    --hash=sha256:1d74a9ef84e56ecd3114563907166bfa65e17e3a00190157c1514fff08e086b4
